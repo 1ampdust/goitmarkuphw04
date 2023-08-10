@@ -314,6 +314,22 @@ address {
   overflow: hidden;
 }
 
+/* Icons svg */
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+}
+
 /* Section 3 */
 .section-title-second {
   text-align: center;
