@@ -145,6 +145,7 @@ ul {
 .nav-list .list-link a:hover::after,
 .nav-list .list-link a:focus::after {
   width: 100%;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-link.first-link a {
