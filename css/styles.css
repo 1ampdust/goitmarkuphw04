@@ -455,6 +455,7 @@ address {
   align-items: center;
   gap: 24px;
   margin-bottom: 120px;
+  color: var(--light-slate);
 }
 
 .client-list .client-items {
@@ -497,7 +498,8 @@ address {
 
 .footer-flex-container {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
+  margin-right: 120px;
 }
 
 .footer-wrapper {
@@ -519,6 +521,7 @@ address {
   letter-spacing: 0.02em;
   color: var(--cloud);
   max-width: 264px;
+  margin-bottom: 16px;
 }
 
 .icons-footer {
