@@ -639,3 +639,17 @@ address {
 .filters {
   padding: 96px 0 120px 0;
 }
+
+.link-footer {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-wrapper p:hover,
+.card-wrapper p:focus {
+  transform: translateY(0%);
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
