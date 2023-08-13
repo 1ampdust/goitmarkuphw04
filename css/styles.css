@@ -636,11 +636,6 @@ address {
   border-top: none;
 }
 
-.cadr-text:hover,
-.cadr-text:focus {
-  transform: translateY(0%);
-}
-
 .filter-list {
   display: flex;
   gap: 24px;
@@ -668,7 +663,9 @@ address {
 
 .link-footer {
   display: block;
-  transition: box-shadow var(--transition);
+}
+
+.link-footer:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -681,6 +678,15 @@ address {
 .imagine-container {
   position: relative;
   overflow: hidden;
+}
+
+.imagine-container:hover .overlay {
+  transform: translateY(0);
+}
+
+.link-footer:hover .overlay-text,
+.link-footer:focus .overlay-text {
+  transform: translateY(0%);
 }
 
 .overlay-text {
