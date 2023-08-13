@@ -600,14 +600,15 @@ address {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 1;
+  transition: transform var(--transition);
   width: 408px;
   min-height: 584px;
-  background: var(--diary);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background: var(--dairy);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
 }
 
 .modal-close-button {
@@ -632,6 +633,7 @@ address {
 .modal-close-button:focus {
   background-color: var(--ocean);
   border: none;
+  fill: var(--white);
 }
 
 .modal-close-button svg {
@@ -641,6 +643,10 @@ address {
 .modal-close-button:hover svg,
 .modal-close-button:focus svg {
   fill: var(--white);
+}
+
+.modal-icon {
+  transition: fill var(--transition);
 }
 
 /* Portfolio css*/
