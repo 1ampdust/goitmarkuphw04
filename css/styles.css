@@ -663,7 +663,6 @@ address {
 
 .link-footer {
   display: block;
-  transition: box-shadow var(--transition);
 }
 
 .card-wrapper p:hover,
