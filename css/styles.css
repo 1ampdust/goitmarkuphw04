@@ -19,11 +19,15 @@
   --items: 4;
 }
 
+/* Body Styles */
+
 body {
   font-family: var(--primaty-font);
   color: var(--slate);
   background-color: var(--white);
 }
+
+/* Reset some default styles */
 
 ul,
 ol {
@@ -60,7 +64,7 @@ p {
   margin: 0;
 }
 
-/* Header */
+/* Header Styles */
 .header {
   border-bottom: 1px solid var(--cornflower);
   height: 72px;
@@ -117,7 +121,7 @@ p {
   justify-content: space-between;
 }
 
-/* Стили для всех пунктов меню */
+/* Styles for Header */
 
 .nav-list .list-link:hover,
 .nav-list .list-link:focus {
@@ -177,7 +181,7 @@ p {
   color: var(--ocean);
 }
 
-/* Address */
+/* Address Styles */
 address {
   font-style: normal;
 }
@@ -213,7 +217,7 @@ address {
   padding: 25px 0 25px 0;
 }
 
-/* Section 1 */
+/* Section 1 Styles */
 .section-one {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -263,7 +267,7 @@ address {
   background-color: var(--ocean);
 }
 
-/* Section 2 */
+/* Section 2 Styles */
 .section-two {
   padding: 120px 0;
 }
@@ -314,7 +318,7 @@ address {
   overflow: hidden;
 }
 
-/* Icons svg */
+/* Icons svg Styles */
 .icon-container {
   display: flex;
   align-items: center;
@@ -330,7 +334,7 @@ address {
   height: 64px;
 }
 
-/* Section 3 */
+/* Section 3 Styles */
 .section-title-second {
   text-align: center;
   font-size: 36px;
@@ -357,7 +361,7 @@ address {
   background-color: var(--white);
 }
 
-/* Section 4 */
+/* Section 4 Styles */
 .section-title {
   font-weight: 500;
   font-size: 20px;
@@ -445,7 +449,7 @@ address {
   background-color: var(--ocean);
 }
 
-/* Section 5 */
+/* Section 5 Styles */
 .section-five {
   padding: 120px 0 120px;
 }
@@ -501,7 +505,7 @@ address {
   border-color: var(--ocean);
 }
 
-/* Footer */
+/* Footer Styles */
 .footer {
   background-color: var(--grey);
   padding: 100px 0;
@@ -581,7 +585,7 @@ address {
   height: 40px;
 }
 
-/* Modal Window */
+/* Modal Window Styles */
 .backdrop {
   position: fixed;
   top: 0;
@@ -650,7 +654,7 @@ address {
   transition: fill var(--transition);
 }
 
-/* Portfolio css*/
+/* Portfolio CSS Styles*/
 .filters-button {
   justify-content: center;
   background-color: var(--cloud);
@@ -668,11 +672,6 @@ address {
   min-height: 48px;
 }
 
-.portfolio-btn-item {
-  transition: background-color var(--transition), color var(--transition),
-    border-color var(--transition), box-shadow var(--transition);
-}
-
 .filters-button:hover,
 .filters-button:focus {
   color: var(--white);
@@ -683,6 +682,10 @@ address {
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
+.portfolio-btn-item {
+  transition: background-color var(--transition), color var(--transition),
+    border-color var(--transition), box-shadow var(--transition);
+}
 .section-principles-title {
   font-weight: 500;
   font-size: 20px;
@@ -738,8 +741,8 @@ address {
 
 .link-footer:hover,
 .link-footer:focus {
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .card-wrapper p:hover,
