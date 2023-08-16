@@ -488,7 +488,7 @@ address {
   border-radius: 4px;
   border: 1px solid var(--light-slate);
   color: var(--light-slate);
-  transition: color var(--transition);
+  transition: color var(--transition), border-color var(--transition);
 }
 
 .client-links:hover,
