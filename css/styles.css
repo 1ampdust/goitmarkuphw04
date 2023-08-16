@@ -464,7 +464,6 @@ address {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  margin-bottom: 120px;
   color: var(--light-slate);
 }
 
