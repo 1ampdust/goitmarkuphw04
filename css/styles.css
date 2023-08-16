@@ -154,6 +154,7 @@ p {
   color: var(--grey);
   padding: 24px 0;
   position: relative;
+  transition: color var(--transition);
 }
 
 .pages-list-item-link::after {
